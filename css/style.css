@@ -1,0 +1,287 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/IRANSansWeb.woff2") format("woff2"), url("fonts/IRANSansWeb(FaNum).woff") format("woff"), url("fonts/IRANSansWeb.ttf") format("truetype"); }
+
+@font-face {
+    font-family: MyYekan;
+    font-style: normal;
+    src: url("fonts/BYekan.ttf") format("truetype"),url("fonts/BYekan.woff") format("woff"),url("fonts/BYekan.eot") format("embedded-opentype");
+}
+.yekan{
+    font-family: MyYekan !important;
+}
+.iranSans{
+    font-family: IRANSans !important;
+}
+*{
+    font-family: IRANSans;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+a:hover{
+    text-decoration: none;
+}
+/*************************************---End Page Setting---***********************************/
+.top-header{
+    background: #eae9e9;
+}
+.date-holder {
+    padding: 0.75rem;
+    margin-inline-start: 5rem;
+    margin-inline-end: 5rem;
+    color: #999999;
+}
+.left-banner >ul>li>a {
+    color: #999999;
+}
+.logo {
+    margin: 1rem 5rem;
+}
+
+.info {
+    margin: 2rem 2rem;
+}
+.socialIcons {
+    background: #b8b8b8;
+    color: white;
+    margin: 5px 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 2px 5px;
+    -webkit-transition:all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    transition: all 150ms linear;
+    margin-block-end: 0.05rem;
+}
+.socialIcons:hover{
+    color: #f5f5f5;
+    background: #30a7dc;
+}
+.socialIcons >svg {
+    margin:  5px;
+}
+.contact-info {
+    margin-top: 0.07rem;
+    font-family: MyYekan;
+}
+.contact-info> .span-holder>span {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #b8b8b8;
+    padding: 0 1.5rem 0 0.5rem;
+}
+.main-header {
+    padding: 10rem;
+    background: url(img/web/header.jpg) no-repeat center;
+
+}
+/*************************************---End Header---**********************************************/
+.nav-header {
+    z-index: 1200;
+    margin-bottom: -2.75rem;
+}
+.navbar-fix {
+    margin: 0 auto;
+    background: #333333;
+}
+.navbar-item-holder {
+    margin: 0 auto;
+}
+.navbar-fix .navbar-item-holder >ul>li {
+    padding: 0.50rem;
+    margin: 0.50rem;
+}
+.navbar-fix .navbar-item-holder >ul>li>span {
+    padding-right: 0.70rem;
+}
+.navbar-fix .navbar-item-holder>ul>li>a {
+    color: #fff3cd;
+    font-family: MyYekan;
+}
+
+/*************************************---End navBar ---***************************************/
+.SpcProductBox{
+    background: #ffffff;
+}
+.SpcProductBox >article >h4{
+    color: #c92f56;
+    line-height: 2;
+    font-family: MyYekan;
+}
+.SpcProductBox >article >p{
+    line-height: 2;
+    font-family: MyYekan;
+}
+.box>figure>img{
+    transition: all ease-in-out 200ms;
+    opacity: 0.7;
+}
+.box:hover >figure>img {
+    transform: scale(1.2);
+    opacity: 1;
+}
+/*************************************---End Box---**********************************************/
+.product-slider-container{
+    text-align: center;
+    padding: 3% 6%!important;
+
+}
+.overflow{
+    overflow: hidden!important;
+}
+.controller{
+    margin: 10% auto;
+    padding: 3% 1%;
+    color: #cc3230;
+    cursor: pointer;
+}
+.slider-item{
+    max-width: 30%;
+    margin: 0 3%;
+}
+.slider-item >figure
+{
+    width: 15em!important;
+}
+.slider-item >figure>img
+{
+    max-width: 70%;
+}
+.slider-holder{
+    BORDER-BOTTOM: 2PX SOLID #cd3333;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item[class*="center"]
+{
+    -webkit-transform: scale(0.5) rotate(-52deg) skew(-17deg,17deg);
+    -moz-transform: scale(0.5) rotate(-52deg) skew(-17deg,17deg);
+    -ms-transform: scale(0.5) rotate(-52deg) skew(-17deg,17deg);
+    -o-transform: scale(0.5) rotate(-52deg) skew(-17deg,17deg);
+    transform: scale(0.5) rotate(-52deg) skew(-17deg,17deg);
+}
+
+/*************************************---End Slider---**********************************************/
+
+.productContentBox{
+    border-top:solid 3px #cc3333;
+    padding: 0.5% 0;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+.product-box{
+    background: url("img/web/back1.png") #184e68 repeat;
+}
+.product-box-back2 {
+    background: url("img/web/back2.png") #c53346 repeat!important;
+}
+.product-box-back3 {
+    background: url("img/web/back3.png") #fde3ba repeat!important;
+}
+.product-box-back4 {
+    background: url("img/web/back4.png") #e8ecf1 repeat!important;
+}
+.product-box-holder{
+    margin: auto;
+    text-align: center;
+}
+.product-caption{
+    background: #ffffff;
+    padding: 1em 3em 0 3rem;
+    border-bottom: 4px solid #cc3333;
+}
+}
+.caption .content-box >p{
+    line-height: 2.3;
+    font-family:MyYekan;
+}
+.caption .title>h3{
+color: #cc0033;
+    font-weight: normal;
+}
+.caption .title .icon >svg{
+    color: #cc3333;
+}
+.product-photo >figure
+{
+    max-width: 30%;
+    margin: 0 auto;
+}
+.product-photo >figure>img{
+    max-width:100%;
+}
+.product-info-holder{
+    margin: 0 auto;
+}
+.product-caption-holder{
+    padding: 0 5em;
+    position: relative;
+    z-index: 100;
+}
+.caption .content-text >p{
+    font-family: MyYekan;
+    line-height: 2.2;
+}
+.product-photo-holder{
+    position: relative;
+    z-index: 105;
+    top: 2em;
+}
+.product-btn >button{
+    border-radius: 0.75rem!important;
+    padding: 0.40rem 1.1rem!important;
+}
+.row-product{
+    position: relative;
+    top: 10em;
+    margin-top: -10em;
+}
+/*************************************---End Product Box ---**********************************************/
+.footer-overHead{
+    background: #cccccc;
+}
+.footer-overHead .icon-holder{
+    color: #f5f5f5;
+    background: #b8b8b8;
+    padding: 0.40rem 0.75rem;
+    margin: 0.5rem 0.5rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+.footer-overHead .icon-holder:hover{
+    color: #f5f5f5;
+    background: #30a7dc;
+}
+
+.footer{
+    background: #333333;
+
+}
+.footer-box{
+    background: #333333;
+    border-top: 3px solid #a83f3f;
+    padding: 2rem 1rem;
+    color: #ffffff;
+}
+.footer-box >p,h3,h4,h6,h5,span{
+    font-family: MyYekan;
+}
+.copyRight{
+    padding: 1rem 0!important;
+    margin: 0 auto!important;
+    color: white;
+}
+
