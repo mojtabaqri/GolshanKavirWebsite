@@ -284,4 +284,14 @@ color: #cc0033;
     margin: 0 auto!important;
     color: white;
 }
+.sticky-nav{
+    z-index: 1020;
+    display: none;
+}
+.sticky-logo{
+    z-index: 1070;
+    z-index: 1070;
+    right: 10%;
+    top: 30%;
+}
 
