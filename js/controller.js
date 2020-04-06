@@ -22,9 +22,9 @@ $(".item-holder").owlCarousel({
      let middle=$(document).height()*percent/100;
      console.log(middle);
      if(scrollFromTop > middle)
-         $(".sticky-nav").show("2000");
+         $(".sticky-nav").fadeIn("2000");
      else
-         $(".sticky-nav").hide("2000");
+         $(".sticky-nav").fadeOut("2000");
     })
 //-------------------- Sticky Nav
 });
