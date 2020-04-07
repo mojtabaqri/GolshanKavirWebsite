@@ -9,6 +9,10 @@
     font-style: normal;
     src: url("fonts/BYekan.ttf") format("truetype"),url("fonts/BYekan.woff") format("woff"),url("fonts/BYekan.eot") format("embedded-opentype");
 }
+.mainContainer {
+    max-width: 1780px;
+    margin: 0 auto;
+}
 .yekan{
     font-family: MyYekan !important;
 }
@@ -294,4 +298,57 @@ color: #cc0033;
     right: 10%;
     top: 30%;
 }
+/*Start Media Query */
+@media only screen and (max-width: 660px) {
+    .date-holder {
+         margin-inline-start: 0.1rem;
+         margin-inline-end: 0.1rem;
+        color: #999999;
+    }
+    .left-banner{
+        margin-left: 1rem!important;
+    }
+    .logo{
+        margin: 0;
+    }
+    .info {
+        margin-top: 2rem!important;
+    }
+    .contact-info {
+        display: none;
+    }
+    .nav-header {
+        display: none;
+    }
+    .main-header {
+        display: none;
+    }
+    .SpcProductBox{
+        margin-top: 0!important;
+        padding: 0;
+    }
+    .product-slider{
+        display: none;
+    }
+    .sticky-nav{
+        visibility: hidden;
+    }
+    .product-caption-holder {
+        padding: 0em 0em;
+        margin-bottom: 10em;
+    }
+    .caption .content-text >p {
+        line-height: 1.5;
+        font-size: small;
+    }
+    .caption .title>h3 {
+        font-size: larger;
+    }
+    .product-photo >figure>img {
+        max-width: 5em;
+        margin: -5px;
+    
+    }
+}
+/*Start Media Query */
 
