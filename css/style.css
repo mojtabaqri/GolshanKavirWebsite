@@ -299,7 +299,7 @@ color: #cc0033;
     top: 30%;
 }
 /*Start Media Query */
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 920px) {
     .date-holder {
          margin-inline-start: 0.1rem;
          margin-inline-end: 0.1rem;
@@ -348,6 +348,9 @@ color: #cc0033;
         max-width: 5em;
         margin: -5px;
     
+    }
+    .product-caption {
+        padding: 0;
     }
 }
 /*Start Media Query */
