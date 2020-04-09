@@ -42,5 +42,5 @@ $(".item-holder").owlCarousel({
         $('.date-holder span').html(response.date);
     });
 //-------------------- Sticky Nav
-
+    AOS.init();
 });
