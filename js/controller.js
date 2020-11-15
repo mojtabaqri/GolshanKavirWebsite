@@ -1,16 +1,4 @@
-function getData(yt_url, callback) {
-    $.ajax({
-        type: "GET",
-        url: yt_url,
-        success: callback,
-        error: function (request, status, error) {
-            alert(status);
-        }
-    })
-}
-
 $(document).ready(function () {
-
     //-----------------------------------------------Slider--------------------------------------------
 $(".item-holder").owlCarousel({
     item:3,
@@ -37,9 +25,6 @@ $(".item-holder").owlCarousel({
          $(".sticky-nav").fadeIn("2000");
      else
          $(".sticky-nav").fadeOut("2000");
-    });
-    getData('http://localhost/date/date.php', function(response) {
-        $('.date-holder span').html(response.date);
     });
 //-------------------- Sticky Nav
     AOS.init();

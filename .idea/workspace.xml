@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db7c1a0-04f4-42b6-8aaa-4055848a164f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/aos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,11 +27,12 @@
   <component name="ProjectId" id="1aA0972Uh39hv8uVcLjErLSFGx3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
@@ -84,28 +84,17 @@
       <workItem from="1586321577685" duration="8839000" />
       <workItem from="1586353874942" duration="2705000" />
       <workItem from="1586408386961" duration="2079000" />
+      <workItem from="1605425263942" duration="174000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586164514283">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="-1229" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605425403295">
+      <screen x="-1366" y="0" width="1366" height="728" />
     </state>
-    <state x="254" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1586164514283" />
-    <state x="328" y="24" key="CommitChangelistDialog2" timestamp="1586259649645">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="328" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1586259649645" />
-    <state x="854" y="194" key="FileChooserDialogImpl" timestamp="1586164209707">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="854" y="194" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586164209707" />
-    <state x="602" y="93" width="998" height="708" key="SettingsEditor" timestamp="1586183170225">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="602" y="93" width="998" height="708" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586183170225" />
+    <state x="-1229" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1366.728@-1366.0.1366.728" timestamp="1605425403295" />
   </component>
 </project>
