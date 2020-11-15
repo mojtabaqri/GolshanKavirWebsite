@@ -358,6 +358,9 @@ color: #cc0033;
 .top-header{
     flex-direction: column!important;
 }
+    .SpcProductBox > article > p {
+    font-size: 14pt;
+    }
 }
 /*Start Media Query */
 
