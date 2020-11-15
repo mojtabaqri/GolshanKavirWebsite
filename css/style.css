@@ -354,5 +354,10 @@ color: #cc0033;
         padding: 0;
     }
 }
+@media only screen and (max-width: 560px) {
+.top-header{
+    flex-direction: column!important;
+}
+}
 /*Start Media Query */
 
