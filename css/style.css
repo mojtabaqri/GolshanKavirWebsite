@@ -16,6 +16,11 @@
 .yekan{
     font-family: MyYekan !important;
 }
+.navbar-dark .navbar-nav .nav-link {
+    font-family: MyYekan !important;
+}
+
+
 .iranSans{
     font-family: IRANSans !important;
 }
@@ -292,6 +297,9 @@ color: #cc0033;
     z-index: 1070;
     right: 10%;
     top: 30%;
+}
+#navbarNav{
+    justify-content: center;
 }
 /*Start Media Query */
 @media only screen and (max-width: 920px) {
