@@ -353,14 +353,29 @@ color: #cc0033;
     .product-caption {
         padding: 0;
     }
+    .main-header{
+        display: none;
+    }
 }
 @media only screen and (max-width: 560px) {
 .top-header{
     flex-direction: column!important;
+
 }
+    .main-header{
+        display: none;
+    }
     .SpcProductBox > article > p {
     font-size: 14pt;
     }
 }
 /*Start Media Query */
+#slideshow {
+    height: 300px;
+}
+
+#slideshow > div {
+    position: absolute;
+}
+
 

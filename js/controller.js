@@ -14,6 +14,17 @@ $(".item-holder").owlCarousel({
     $('#next').click(function() {
         owl.trigger('prev.owl.carousel', [300]);
     })
+
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+        $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+    }, 3000);
     //-----------------------------------------------Slider--------------------------------------------
 //-------------------- Sticky Nav
     $(document).scroll(function () {
